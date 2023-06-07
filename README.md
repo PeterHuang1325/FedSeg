@@ -8,7 +8,7 @@ In this repo, we provide an FL framework which incorporates following features:
 
 to be robust to **Byzantine perturbation**, **mislabeled data** in clients and is locally adaptive with **data heterogeneity** across clients.
 
-[](/images/rob_plot.png)
+[FL](/images/rob_plot.png)
 - *Note: part of the code structure is inspired from* [FedDG](https://github.com/liuquande/FedDG-ELCFS)
 
 ## Usage
