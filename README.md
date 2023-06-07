@@ -11,10 +11,11 @@ to be robust to **Byzantine perturbation**, **mislabeled data** in clients and i
 <a href="https://ibb.co/2ZDNbnW"><img src="https://i.ibb.co/CPk2r1m/rob-plot.png" alt="rob-plot" border="0"></a>
 - *Note: part of the code structure is inspired from* [FedDG](https://github.com/liuquande/FedDG-ELCFS)
 
+## Usage
 
-## MRI Data problem
-1. LGG (Low-Grade Glioma) [LGG datalink](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
-2. Prostate Cancer [Prostate datalink](https://liuquande.github.io/SAML/)
+### MRI Data download
+1. LGG (Low-Grade Glioma) [LGG link](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+2. Prostate Cancer [Prostate link](https://liuquande.github.io/SAML/)
 
 
 
