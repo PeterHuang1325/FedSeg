@@ -49,7 +49,7 @@ parser.add_argument('--max_epoch', type=int,  default=150, help='maximum epoch n
 parser.add_argument('--local_epoch', type=int,  default=2, help='local epoch number')
 parser.add_argument('--client_num', type=int, default=6, help='client number per gpu')
 parser.add_argument('--batch_size', type=int, default=16, help='batch_size per gpu') #5, 16
-parser.add_argument('--model_name', type=str,  default='unet', help='type of model')
+parser.add_argument('--model_name', type=str,  default='effunet', help='type of model')
 parser.add_argument('--clip_value', type=float,  default=1, help='clip value') #10
 parser.add_argument('--local_step_size', type=float,  default=5e-4, help='local step size') #1e-3
 parser.add_argument('--base_lr', type=float,  default=5e-4, help='base learning rate') #1e-3, 1e-4
