@@ -28,15 +28,15 @@ to be robust to **Byzantine perturbation**, **mislabeled data** in clients and i
 2. **Run experiments (training):**
      - LGG experiment:
        - Without perturbation:
-          - Run `python run_glioma_robust_cln.py  --mode='fedbn' --aggr='gam_mean' --loss_fn='auto_gamma_dice_loss'`
+          - Run `python run_glioma_robust_cln.py`
        - With random perturbation:
-          - Run `python run_glioma_robust_byz.py  --mode='fedbn' --aggr='gam_mean' --loss_fn='auto_gamma_dice_loss'`
+          - Run `python run_glioma_robust_byz.py`
 
      - Prostate experiment:
        - Without perturbation:
-          - Run `python run_prostate_robust_cln.py  --mode='fedbn' --aggr='gam_mean' --loss_fn='auto_gamma_dice_loss'`
+          - Run `python run_prostate_robust_cln.py`
        - With random perturbation:
-          - Run `python run_prostate_robust_byz.py  --mode='fedbn' --aggr='gam_mean' --loss_fn='auto_gamma_dice_loss'`
+          - Run `python run_prostate_robust_byz.py`
 3. **Run experiments (testing):**
      - Add argument `--state=test` after the training experiment command.
 4. **Plot results:**
