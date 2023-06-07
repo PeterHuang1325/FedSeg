@@ -1,4 +1,4 @@
-# FedSeg: (Robust Federated MRI Segmentation via minimum γ-Divergence Estimation)
+# Robust Federated MRI Segmentation via minimum γ-Divergence Estimation
 In this repo, we provide an FL framework which incorporates following features:
 
 - Simple γ-mean aggregator
@@ -7,6 +7,13 @@ In this repo, we provide an FL framework which incorporates following features:
 - Locally adaptive FL paradigm: Ditto(2021) [Ditto paper](https://arxiv.org/abs/2012.04221)+FedBN(2021) [FedBN paper](https://arxiv.org/abs/2102.07623)
 
 to be robust to **Byzantine perturbation**, **mislabeled data** in clients and is locally adaptive with **data heterogeneity** across clients.
+
+
+## MRI Data problem
+1. LGG (Low-Grade Glioma) [LGG datalink](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+2. Prostate Cancer [Prostate datalink](https://liuquande.github.io/SAML/)
+
+
 
 
 
