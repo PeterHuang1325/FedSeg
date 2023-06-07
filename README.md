@@ -25,7 +25,7 @@ to be robust to **Byzantine perturbation**, **mislabeled data** in clients and i
      
   
  - Run ``dataset/prepare_lgg.ipynb`` and `dataset/prepare_prostate.ipynb` to create clients' data.
-2. **Run experiments:**
+2. **Run experiments (training):**
 - LGG experiment:
   - Without perturbation:
      - Run `python run_glioma_robust_cln.py  --mode='fedbn' --aggr='gam_mean' --loss_fn='auto_gamma_dice_loss'`
@@ -37,8 +37,12 @@ to be robust to **Byzantine perturbation**, **mislabeled data** in clients and i
      - Run `python run_prostate_robust_cln.py  --mode='fedbn' --aggr='gam_mean' --loss_fn='auto_gamma_dice_loss'`
   - With random perturbation:
      - Run `python run_prostate_robust_byz.py  --mode='fedbn' --aggr='gam_mean' --loss_fn='auto_gamma_dice_loss'`
-     
-### MRI Data download
+3. **Run experiments (testing):**
+- Add argument `--state=test` after the training experiment command.
+4. **Plot results:**
+- Run `output/plot_expr.ipynb` for experiment results.
+
+## MRI Data download
 1. LGG (Low-Grade Glioma) [LGG link](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
 2. Prostate Cancer [Prostate link](https://liuquande.github.io/SAML/)
 
