@@ -6,7 +6,7 @@ In this repo, we provide an FL framework which incorporates following features:
 - Data-driven γ-selection methods for simple γ-mean and γ-logistic
 - Locally adaptive FL paradigm: Ditto(2021) [Ditto paper](https://arxiv.org/abs/2012.04221)+FedBN(2021) [FedBN paper](https://arxiv.org/abs/2102.07623)
 
-to be robust to Byzantine perturbation, mislabeled data in clients and is locally adaptive with data heterogeneity across clients.
+to be robust to **Byzantine perturbation**, **mislabeled data** in clients and is locally adaptive with **data heterogeneity** across clients.
 
 
 
