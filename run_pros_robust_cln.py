@@ -44,23 +44,23 @@ from sklearn.model_selection import train_test_split
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--exp', type=str,  default='xxxx', help='model_name')
+parser.add_argument('--exp', type=str,  default='xxxx', help='exp_name')
 parser.add_argument('--max_epoch', type=int,  default=150, help='maximum epoch number to train')
 parser.add_argument('--local_epoch', type=int,  default=2, help='local epoch number')
 parser.add_argument('--client_num', type=int, default=6, help='client number per gpu')
 parser.add_argument('--batch_size', type=int, default=16, help='batch_size per gpu') #5, 16
-parser.add_argument('--model_name', type=str,  default='unet', help='type of model')
+parser.add_argument('--model_name', type=str,  default='effunet', help='type of model')
 parser.add_argument('--clip_value', type=float,  default=1, help='clip value') #10
 parser.add_argument('--local_step_size', type=float,  default=5e-4, help='local step size') #1e-3
 parser.add_argument('--base_lr', type=float,  default=5e-4, help='base learning rate') #1e-3, 1e-4
-parser.add_argument('--loss_fn', type=str,  default='bce_dice_loss', help='loss function')
+parser.add_argument('--loss_fn', type=str,  default='auto_gamma_dice_loss', help='loss function')
 parser.add_argument('--deterministic', type=int,  default=1, help='whether use deterministic training')
 parser.add_argument('--seed', type=int,  default=1337, help='random seed')#1337
 parser.add_argument('--gpu', type=str,  default='0', help='GPU to use')
 parser.add_argument('--display_freq', type=int, default=5, help='display frequency')
-parser.add_argument('--aggr', type=str,  default='mean', help='aggregator')
+parser.add_argument('--aggr', type=str,  default='gam_mean', help='aggregator')
 parser.add_argument('--gamma', type=float,  default=1e-4, help='value of gamma')
-parser.add_argument('--mode', type=str,  default='standard', help='standard or fedbn')
+parser.add_argument('--mode', type=str,  default='fedbn', help='standard or fedbn')
 parser.add_argument('--lambd', type=float,  default=1, help='lambda value')
 
 parser.add_argument('--mislabel_rate', type=float, default=0, help='mislabel ratio, default to 0')
