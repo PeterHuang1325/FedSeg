@@ -8,7 +8,7 @@ In this repo, we provide an FL framework which incorporates following features:
 
 to be robust to **Byzantine perturbation**, **mislabeled data** in clients and is locally adaptive with **data heterogeneity** across clients.
 
-- *Part of the code structure is inspired from [FedDG](https://github.com/liuquande/FedDG-ELCFS)
+- *Part of the code structure is inspired from* [FedDG](https://github.com/liuquande/FedDG-ELCFS)
 
 
 ## MRI Data problem
