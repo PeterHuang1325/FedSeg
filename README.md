@@ -41,7 +41,8 @@ to be robust to **Byzantine perturbation**, **mislabeled data** in clients and i
      - Add argument `--state=test` after the training experiment command.
 4. **Plot results:**
      - Run `output/plot_expr.ipynb` for experiment results.
-
+5. **Single machine experiments**
+     - Refer `single_machine/glioma_single` and `single_machine/prostate_single` for single machine training.
 ## MRI Data download
 1. LGG (Low-Grade Glioma) [LGG link](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
 2. Prostate Cancer [Prostate link](https://liuquande.github.io/SAML/)
