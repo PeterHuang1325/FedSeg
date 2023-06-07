@@ -15,12 +15,12 @@ to be robust to **Byzantine perturbation**, **mislabeled data** in clients and i
 1. Prepare data:
 - Create the folder as following example:
   ``
-  ├── dataset
-     ├── client1
-           ├── data_npy
-               ├── sample1.npy, sample2.npy, xxxx
-     ├── clientxxx
-     ├── clientxxx
+  ├── dataset  
+     ├── client1  
+           ├── data_npy  
+               ├── sample1.npy, sample2.npy, xxxx  
+     ├── clientxxx  
+     ├── clientxxx  
   ``
  - Run ``dataset/prepare_lgg.ipynb`` and `dataset/prepare_prostate.ipynb` to create separated clients' data.
 
