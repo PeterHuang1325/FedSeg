@@ -1,0 +1,6 @@
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia (old ver: 11.6)
+conda install pandas scikit-learn scipy matplotlib seaborn tqdm ipykernel
+pip install gdown opencv-python imageio albumentations pytorch_lightning
+#for FedSeg
+pip install natsort pytorch_metric_learning SimpleITK tensorboardX medpy h5py wquantiles einops
+sudo apt-get update && sudo apt-get install -y python3-opencv
